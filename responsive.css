@@ -1,22 +1,79 @@
 @media screen and (max-width: 767px) {
     body {
         width: 100%;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
         display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        padding: 0;
     }
-    main .okaidi-container {
-        max-width: 100%;
+    header {
+        width: 100%;
     }
-
+    header .logo {
+        display: flex;
+        justify-content: center;
+    }
+    header .logo img{
+        width: 141px;
+        height: 42px;
+    }
+    header p {
+        font-size: 18px;
+        width: 100%;
+    }
+    header p .span-one {
+        color: var(--color-red);
+    }
+    header .opening img {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    main .okaidi-container,
+    main .obaibi-container,
+    main .oxybul-container {
+        width: 100%;
+    }
+    main .okaidi-container img,
+    main .obaibi-container img{
+        width: 90%;
+        height: 200px;
+        margin-left: -20px;
+    }
+    main .oxybul-container img {
+        margin-top: 20px;
+    }
+    main .okaidi-container .logo-okaidi img ,
+    main .obaibi-container .logo-okaidi img{
+        margin: 67px 0px 0px 35px;
+        width: 110px;
+        height: 47px;
+    }
+    main .oxybul-container .logo-okaidi img {
+        margin: 20px 0px 0px 35px;
+        width: 98px;
+        height: 30px;
+    }
+    main .okaidi-container .ok-text p:nth-child(1),
+    main .okaidi-container .ok-text p:nth-child(2),
+    main .okaidi-container .ok-text a,
+    main .obaibi-container .ok-text p:nth-child(1),
+    main .obaibi-container .ok-text p:nth-child(2),
+    main .obaibi-container .ok-text a,
+    main .oxybul-container .ok-text p:nth-child(1),
+    main .oxybul-container .ok-text p:nth-child(2),
+    main .oxybul-container .ok-text a  {
+        padding: 0px 0px 0px 20px;
+    }
+    main .magasin-container .idkids-text {
+        align-items: center;
+    }
     main .magasin-container .idkids-text .blue-text {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 100%;
+        padding: 0px 20px;
+    }
+    main .magasin-container .idkids-text .blue-text img {
+        margin: 0;
     }
 }
+

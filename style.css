@@ -261,6 +261,7 @@ main .magasin-container .idkids-text {
 main .magasin-container .idkids-text .blue-text {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 main .magasin-container .idkids-text .blue-text p {
     color: #272A45!important;
