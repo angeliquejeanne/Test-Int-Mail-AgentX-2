@@ -1,0 +1,313 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bg-white: #ffffff;
+    --bg-lightblue: #82C7D3;
+    --bg-darkblue: #0D3880;
+    --bg-bgpink: #E30045;
+
+    --color-black: #000000;
+    --color-blue: #0B1742;
+    --color-blue-two: #1F274B;
+    --color-red: #E20613;
+    --color-darkgrey: #383838;
+
+    --color-grey: #838383;
+
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    top: 0;
+    left: 0;
+    width: 768px;
+    height: 100vh;
+    /* background-color: var(--bg-white); */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px 42px;
+}
+.pre-header {
+    height: 25px;
+    margin: 10px auto;
+}
+.pre-header p {
+    font-size: 12px;
+    color: #717171;
+    text-align: center;
+}
+header {
+    width: 600px;
+    margin: 0 auto;
+}
+header .logo img{
+    height: 58px;
+}
+header .header-text {
+    margin: 20px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+header p {
+    width: 600px;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-blue);
+}
+header p .span-one {
+    color: var(--color-darkgrey);
+}
+header p .span-two {
+    color: var(--color-red);
+}
+header p:nth-child(3) {
+    color: #0A1545;
+}
+header p:nth-child(4) {
+    color: #0A1545;
+}
+header .opening-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+header .opening-text p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+main {
+    margin: 30px auto;
+    width: 600px;
+}
+/* OKAIDI */
+main .okaidi-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+main .okaidi-container img{
+    width: 600px;
+    height: 312px;
+    position: relative;
+}
+main .okaidi-container .logo-okaidi img {
+    width: 137px;
+    height: 58px;
+    position: absolute;
+    z-index: 3;
+    margin: 127px 0px 0px 160px;
+}
+main .okaidi-container .ok-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    background-color: var(--bg-darkblue);
+    height: 178px;
+    width: 100%;
+    margin: 0px auto;
+}
+main .okaidi-container .ok-text p:nth-child(1) {
+    color: var(--bg-white);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 70px;
+}
+main .okaidi-container .ok-text p:nth-child(2) {
+    color: var(--bg-white);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px 0px 0px 70px;
+}
+main .okaidi-container .ok-text a {
+    color: var(--bg-white);
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 25px;
+    padding: 0px 0px 0px 70px;
+}
+/* OBAIBI */
+main .obaibi-container {
+    display: flex;
+    flex-direction: column;
+}
+main .obaibi-container img{
+    width: 600px;
+    height: 312px;
+    position: relative;
+}
+main .obaibi-container .logo-okaidi img {
+    width: 137px;
+    height: 58px;
+    position: absolute;
+    z-index: 3;
+    margin: 127px 0px 0px 160px;
+}
+main .obaibi-container .ok-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    background-color: var(--bg-lightblue);
+    height: 178px;
+    width: 100%;
+    margin: 0px auto;
+}
+main .obaibi-container .ok-text p:nth-child(1) {
+    color: var(--bg-white);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 70px;
+}
+main .obaibi-container .ok-text p:nth-child(2) {
+    color: var(--bg-white);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px 0px 0px 70px;
+}
+main .obaibi-container .ok-text a {
+    color: var(--bg-white);
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 25px;
+    padding: 0px 0px 0px 70px;
+}
+/* OXYBUL */
+main .oxybul-container {
+    display: flex;
+    flex-direction: column;
+}
+main .oxybul-container img{
+    width: 100%;
+    position: relative;
+}
+main .oxybul-container .logo-okaidi img {
+    width: 137px;
+    height: 42px;
+    position: absolute;
+    z-index: 3;
+    margin: 20px 0px 0px 160px;
+}
+main .oxybul-container .ok-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    background-color: var(--bg-bgpink);
+    height: 178px;
+    width: 100%;
+    margin: 0px auto;
+}
+main .oxybul-container .ok-text p:nth-child(1) {
+    color: var(--bg-white);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 70px;
+}
+main .oxybul-container .ok-text p:nth-child(2) {
+    color: var(--bg-white);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px 0px 0px 70px;
+}
+main .oxybul-container .ok-text a {
+    color: var(--bg-white);
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 25px;
+    padding: 0px 0px 0px 70px;
+}
+/* MAGASIN */
+main .magasin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main .magasin-container img{
+    width: 100%;
+    position: relative;
+}
+
+main .magasin-container .idkids-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* justify-content: center; */
+    background-color: var(--bg-white);
+    /* width: 100%; */
+    margin: 30px auto;
+}
+
+main .magasin-container .idkids-text .blue-text {
+    display: flex;
+    justify-content: center;
+}
+main .magasin-container .idkids-text .blue-text p {
+    color: #272A45!important;
+    font-size: 18px;
+    font-weight: 600;
+}
+main .magasin-container .idkids-text .blue-text img {
+    width: 35px;
+    height: 23px;
+    text-align: left;
+    margin: 0px 10px 0px -60px;
+}
+main .magasin-container .idkids-text p {
+    color: #E20613;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-size: 14px;
+    color: #272A45;
+    margin: 10px auto;
+}
+footer .accroche {
+    width: 160px;
+    height: 16px;
+    margin: 5px auto;
+}
+footer .logos-links {
+    margin: 10px auto;
+}
+footer .logos-links a {
+    text-decoration: none;
+}
+footer .logos-links a img{
+    width: 60px;
+    height: 24px;
+}
+footer .logo-fullsize {
+    width: 140px;
+    height: 28px;
+    margin: 10px auto 20px;
+}

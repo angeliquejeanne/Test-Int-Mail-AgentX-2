@@ -1,0 +1,22 @@
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    main .okaidi-container {
+        max-width: 100%;
+    }
+
+    main .magasin-container .idkids-text .blue-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
